@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QyIiwiaWQiOiI2MWMzMzcxNDA5Mjk0ZjE0NTFhYjUyZTciLCJpYXQiOjE2NDAxODM1ODcsImV4cCI6MTY0MDE4NzE4N30.aBorDXYKMpZNT-WiaE5MJkAVpTcuV6c2DAqWzNY-WLE
+
+{
+      "title": "Blog",
+      "author": "Tom",
+      "url": "http://localhost:3003/api/blogs",
+      "likes": 5,
+      "userId": "61c3371409294f1451ab52e7"
+}
